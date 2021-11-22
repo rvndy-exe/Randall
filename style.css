@@ -59,7 +59,7 @@ h5{
     border-width: 20px;
     border-radius: 5px; 
     border-color: #990099  #cc00cc #660066        #ff00ff;
-    color:white;
+    color:black;
     text-shadow: 1px 2px;
     margin: auto;
    
@@ -73,7 +73,7 @@ img {
 
 
 p:hover{
-  color: white;
+  color: black;
   text-shadow: none;
   
 }
