@@ -51,3 +51,36 @@ h5{
   font-size: 30px;
 }
 
+/* LAB 5 */
+
+.box{
+    width:500px;
+    border-style: groove;
+    border-width: 20px;
+    border-radius: 5px; 
+    border-color: #990099  #cc00cc #660066        #ff00ff;
+    color:white;
+    text-shadow: 1px 2px;
+    margin: auto;
+   
+}
+
+img {
+  display: block;
+  max-width: 25%;
+  margin: auto;
+}
+
+
+p:hover{
+  color: white;
+  text-shadow: none;
+  
+}
+  
+
+   
+  
+   
+
+
