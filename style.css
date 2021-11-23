@@ -1,4 +1,7 @@
 }@charset "UTF-8";
+body {
+  font-family:Arial; 
+}
 h2 {
   color:black;
   text-decoration: none;
