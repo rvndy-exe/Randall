@@ -10,3 +10,9 @@
     document.getElementById("mainbox").style.marginleft="0px";
     document.getElementById("mainbox").innerHTML="&#9776;  ";
   }
+
+// QUIZ
+
+function myNice() {
+  document.getElementById("correct").style.color = "#00cc00";
+}
