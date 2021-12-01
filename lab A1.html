@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mablibs</title>
+
+<style>
+  span{
+    color:red;
+  }
+  </style>
+</head>
+
+<body>
+   
+	<h2 style="text-align:center;">MadLib</h2>
+
+  <div id="mainbox" onclick="openfunction()">&#9776; </div>
+    <div id="menu" class="sidemenu">
+		
+	<a href = "DigitalDesign.html">Digital Design</a><br>
+    <a href = "Lab2.html">Lab 2</a> <br>
+	<a href = "Lab3.html">Lab 3</a><br>
+	<a href = "Lab4.html">Lab 4</a><br>
+	<a href = "Lab5.html">Lab 5</a><br>
+	<a href = "Lab6.html">Lab 6</a><br>
+	<a href = "Lab7.html">Lab 7</a><br>
+    <a href="#"class="closebtn" onclick="closefunction()">&times;</a>
+  
+    </div>
+
+<!-- Extend the Madlib so that it has at least 8 different words-->
+<p style="text-align:center;"> Here's a madlib about a kid named <span id = "test1"></span>  who had an imaginary friend <span id = "name2"> ____</span>. One day the two<br>of them went up a hill and found a pot of <span id = "noun1"> _____ </span>. As they got closer and closer, a <span id="noun2">_____</span> jumped at<br>them and put up his <span id="hands">_____</span> up. He put a beating on to the both of them. The next day the two <br>showed up with <span id="name3">_____</span> and he bit of the laupracaun's ear. The laupracaun said to mike,"I <br>jutht don't underthtand all thith madneth". Mike was angry for the jokes <br> the lauprachaun made about <span id="speech">_____</span> speech so he hit him with a right hook and he was <span id="gone">_____</span></p>
+
+	<script>  //The Javascript goes in this section below 
+    
+//Put the Madlib JS Code below here. Extend this code so that asks for 8 different inputs and prints them all out
+
+
+var name1 = prompt("Give me a name");
+var name2 = prompt("Give me another name");
+var noun1 = prompt("what is at the end of a rainbow?");
+var noun2 = prompt("who is at the end of a rainbow?")
+var hands = prompt("Curling your fingers into a ball of ??")
+var name3 = prompt("The name of the boxer who bit off an ear")
+var speech = prompt("speech impediment that specifically relates to making the sounds associated with the letters S and Z")
+var gone= prompt("long hours at night time with your eyes closed")
+
+
+
+document.getElementById("test1").innerHTML = name1;
+document.getElementById("name2").innerHTML = name2;
+document.getElementById("noun1").innerHTML = noun1;
+document.getElementById("noun2").innerHTML = noun2;
+document.getElementById("hands").innerHTML = hands;
+document.getElementById("name3").innerHTML = name3;
+document.getElementById("speech").innerHTML = speech;
+document.getElementById("gone").innerHTML = gone;
+
+
+	</script>
+
+
+</body>
+
+</html>
